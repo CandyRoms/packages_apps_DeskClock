@@ -102,8 +102,13 @@
       <item quantity="few">minute</item>
       <item quantity="other">minute</item>
     </plurals>
-    <string name="auto_silence_title" msgid="2012754009554434544">"Naj zvoni"</string>
-    <string name="auto_silence_summary" msgid="7028508740659733028">"<xliff:g id="MINUTES">%d</xliff:g> min"</string>
+    <string name="auto_silence_title" msgid="2012754009554434544">"Utišanje po"</string>
+    <plurals name="auto_silence_summary" formatted="false" msgid="6579258788774360396">
+      <item quantity="one"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> minuta</item>
+      <item quantity="two"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> minuti</item>
+      <item quantity="few"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> minute</item>
+      <item quantity="other"><xliff:g id="FORMATTED_NUMBER">%s</xliff:g> minut</item>
+    </plurals>
     <string name="auto_silence_never" msgid="4821982647348750809">"Nikoli"</string>
   <string-array name="auto_silence_entries">
     <item msgid="3024545954917711306">"1 minuta"</item>
